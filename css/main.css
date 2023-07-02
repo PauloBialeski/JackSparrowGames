@@ -1,0 +1,71 @@
+
+.M01{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
+    border: 01px solid black;
+    margin: 0% 25%;
+    font-family: minhafonte;
+    font-size: 60pt;
+    color: goldenrod;
+}
+.M02{
+   flex-direction: row;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 0% 25%;
+   font-family: minhafonte;
+   font-size: 22pt;   
+    background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
+    border: 01px solid black;
+    color: goldenrod;
+}
+.H01:hover{
+    cursor: pointer; color: white;
+}
+.H02:hover{
+    cursor: pointer; color: rgb(224, 98, 98);
+}
+.M03{
+    background-image: linear-gradient(to bottom, rgb(218, 144, 7) 10%, rgb(53, 35, 2) 140%);
+}
+.M04{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:3% 25%;
+    background-color: white;
+    font: normal 12pt arial;
+ }
+ .FM06{
+    flex-direction: row;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 0% 25%;
+   font-family: minhafonte;
+   font-size: 22pt;
+   background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
+    border: 01px solid black;
+    color: goldenrod;
+ }
+ .container {
+    position: relative;
+    overflow: hidden;
+  }
+  .container img {
+    max-width: 100%;
+    -moz-transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7;
+  }
+  .container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
