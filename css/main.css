@@ -28,6 +28,10 @@ header {
   margin: auto;
 }
 
+header > h1 {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
 nav {
   background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
   border: 01px solid black;
@@ -43,6 +47,7 @@ nav {
 
 nav > a {
   color: goldenrod;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
   text-decoration: none;
   padding: 5px 35px;
 }
@@ -88,6 +93,9 @@ main img:hover {
 
 main img {
   border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.274);
+  margin-bottom: 10px;
+  height: 250px;
   max-width: 100%;
   -moz-transition: all 0.7s;
   -webkit-transition: all 0.7s;
@@ -97,6 +105,7 @@ main img {
 footer {
   background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
   color: goldenrod;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
   border: 01px solid black;
   font-family: 'minhafonte';
   font-size: 0.8em;
