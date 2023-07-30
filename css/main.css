@@ -1,5 +1,115 @@
 
-.M01{
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'minhafonte';
+  src: url(../fontes/Pieces\ of\ Eight.ttf) format('opentype');
+  font-weight: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #c5ebd6;
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
+  border: 01px solid black;
+  font-family: 'minhafonte';
+  font-size: 3em;
+  color: goldenrod;
+  text-align: center;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav {
+  background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
+  border: 01px solid black;
+  font-family: 'minhafonte';
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav > a {
+  color: goldenrod;
+  text-decoration: none;
+  padding: 5px 35px;
+}
+
+nav > a:hover {
+  color: white;
+}
+
+main {
+  background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+main .linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px 30px;
+
+}
+
+main a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+main a:hover {
+  color: goldenrod;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+main img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+main img {
+  border-radius: 10px;
+  max-width: 100%;
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, rgb(5, 116, 91) 10%, rgb(1, 26, 22) 140%);
+  color: goldenrod;
+  border: 01px solid black;
+  font-family: 'minhafonte';
+  font-size: 0.8em;
+  text-align: center;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+
+/* .M01{
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -67,5 +177,5 @@
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-  }
+  } */
   
